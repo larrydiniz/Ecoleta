@@ -1,0 +1,32 @@
+:root {  /* referencia a raiz do documento*/
+    --title-color: #322153; 
+    --primary-color:#34cb79;
+    --background-color: #D7D7DB;
+    --contrast-color: #F0F0F5;
+}
+
+* {  
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+html {
+    font-family: Roboto, sans-serif; 
+    }
+
+body {
+    background: var(--background-color);
+    -webkit-font-smoothing: antialiased; 
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: Ubuntu, sans-serif;
+}
+
+
